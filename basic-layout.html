@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basic Layout</title>
+    <style>
+        body {
+            font-family: "Times New Roman";
+            font-size: 16px;
+        }
+        #main {
+            margin: auto;
+            width: 98%;
+        }
+        #head {
+            margin: auto;
+            width: 98%;
+            background-color: antiquewhite;
+            height: 60px;
+        }
+        #logo {
+            width: 30%;
+            background-color: aquamarine;
+            float: left;
+            text-align: center;
+            height: 60px;
+        }
+        #banner {
+            width: 70%;
+            background-color: gray;
+            float: left;
+            text-align: center;
+            height: 60px;
+        }
+        #head-link {
+            margin: 10px 15px 0px 10px;
+            width: 98%;
+            height: 40px;
+            background-color: cadetblue;
+        }
+        #head-link a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 10px 18px;
+            text-decoration: none;
+        }
+        #left {
+            width: 15%;
+            background-color: chocolate;
+            height: 700px;
+            margin: 10px;
+            float: left;
+            display: block;
+        }
+        #left a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            text-decoration: none;
+        }
+        #content {
+            width: 65%;
+            background-color: burlywood;
+            display: block;
+            height: 700px;
+            margin: 10px;
+            float: left;
+        }
+        #content h1 {
+            text-align: center;
+            margin: 80px;
+        }
+        #right {
+            margin: 10px;
+            width: 15%;
+            float: left;
+            background-color: chartreuse;
+            height: 700px;
+            display: block;
+        }
+        #right h2 {
+            margin: 80px;
+        }
+        #footer {
+            margin: 10px 15px 15px 10px;
+            width: 98%;
+            background-color: crimson;
+            height: 60px;
+            display: block;
+            float: left;
+        }
+        #footer h2 {
+            margin: 20px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="head">
+            <div id="logo">
+                <h2>Logo</h2>
+            </div>
+            <div id="banner">
+                <h2>Banner</h2>
+            </div>
+        </div>
+        <div id="head-link">
+            <a href="#home">Home</a>
+            <a href="#students">Students</a>
+            <a href="#courses">Course</a>
+            <a href="#about-us">About Us</a>
+            <a href="#contact-us">Contact Us</a>
+        </div>
+        <div id="left">
+            <a href="#introduction">Introduction</a>
+            <a href="#news">News</a>
+            <a href="#education">Education</a>
+            <a href="#register">Register</a>
+            <a href="#course">Course</a>
+        </div>
+
+        <div id="content">
+            <h1>Content</h1>
+        </div>
+        <div id="right">
+            <h2>Ads</h2>
+        </div>
+        <div id="footer">
+            <h2>Footer</h2>
+        </div>
+    </div>
+
+</body>
+</html>
